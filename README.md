@@ -19,5 +19,15 @@ public class test{
 **加重强调** 或者 __加重强调__ (示例：粗体)   
 ***特别强调*** 或者 ___特别强调___ (示例：粗斜体)   
 
+flowchat
+st=>start: Start
+e=>end
+op=>operation: My Operation
+cond=>condition: Yes or No?
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+
 
 --------------------------
